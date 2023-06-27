@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  namehw: MyString
+  locationhw: MyString
+  househw: MyString
+
+two:
+  namehw: MyString
+  locationhw: MyString
+  househw: MyString

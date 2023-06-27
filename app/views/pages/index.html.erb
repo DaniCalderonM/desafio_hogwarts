@@ -1,0 +1,21 @@
+<h1 class="text-center hp display-1 pt-5">Personajes de "Harry Potter"</h1>
+
+<%= image_tag 'casas.png', class:"image" %>
+
+<div class="pt-4">
+<% @characters.each do |p| %>
+    <div class= "d-flex p-1 justify-content-center">
+     
+     <h5> ◐Nombre: </h5>
+     <p class="ps-1"> <%= p.namehw %> </p>
+    
+   <h5 class= "ps-4">◑Ubicación:</h5>
+    <p class="ps-1"> <%= p.locationhw %> </p>
+    
+    <h5 class= "ps-4">◓Casa:</h5>
+    <p class="ps-1"> <%= p.househw %> </p>
+    
+    </div>
+    <p class="text-center"> ⌁☍ ⌁☍ ⌁☍ ⌁☍ ⌁☍ ⌁☍ ⌁☍ ⌁☍ ⌁☍ </p>
+<% end %>
+</div>
